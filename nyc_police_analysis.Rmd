@@ -1,0 +1,36 @@
+---
+title: "nyc_police_analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readxl)
+library(broom) #glance
+library(dplyr)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(reshape2)
+library(caret) 
+library(randomForest)
+library(rpart) #classification and regression trees
+library(tree) #classification and regression trees
+library(gbm)
+library(adabag) #adaptive boosting
+library(glmnet)
+```
+
+## Importing Dataset
+
+```{r data}
+dataset.2015 <- read.csv("sqf-2015.csv")
+dataset.2016 <- read.csv("sqf-2016.csv")
+dataset.2017 <- read.csv("sqf-2017.csv")
+dataset.2018 <- read.csv("sqf-2018.csv")
+dataset.2019 <- read.csv("sqf-2019.csv")
+```
+
+Consolidate dataset and clean up column names.
+
