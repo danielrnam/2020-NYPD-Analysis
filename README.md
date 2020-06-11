@@ -7,3 +7,8 @@ The dataset used for this analysis if the NYC Stop Frisk data. The dataset spans
 
 ### Additional Info
 Since the model will be used to analyze from 2015 - 2019, it is not robust. Take into account different factors that could contribute! 
+
+## Objectives
+- create visualizations to show any racial biases 
+- create a webframe 
+- further statistical analysis on the dataset and overall report on NYPD
