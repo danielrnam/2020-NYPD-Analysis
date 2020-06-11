@@ -12,3 +12,7 @@ Since the model will be used to analyze from 2015 - 2019, it is not robust. Take
 - create visualizations to show any racial biases 
 - create a webframe 
 - further statistical analysis on the dataset and overall report on NYPD
+If everything goes according to plan, we can try to get the report into a journal 
+
+### Python Tools
+Package details: 
